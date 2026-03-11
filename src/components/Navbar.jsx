@@ -43,7 +43,8 @@ const Navbar = () => {
             <div className={`relative h-10 w-10 md:h-12 md:w-12 p-1.5 rounded-xl transition-all duration-300 ${isScrolled ? 'bg-slate-100/50' : 'bg-white shadow-lg shadow-white/20'} flex items-center justify-center group-hover:scale-110`}>
               <Image
                 src="/images/logo.png"
-                alt="Gate Automation UK"
+                alt="Gate Automation UK - Electric Gate Repairs & Services"
+                title="Gate Automation UK - Electric Gate Repairs & Installation Specialists"
                 fill
                 className="object-contain p-1"
                 priority

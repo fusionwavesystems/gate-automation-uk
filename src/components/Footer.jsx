@@ -13,7 +13,8 @@ const Footer = () => {
             <div className="relative h-20 w-56 md:h-28 md:w-72 transition-transform group-hover:scale-105 brightness-0 invert opacity-90">
               <Image
                 src="/images/logo.png"
-                alt="Gate Automation UK"
+                alt="Gate Automation UK - Emergency Gate Fixing & Repairs"
+                title="Gate Automation UK - UK's Leading Gate Repair Specialists"
                 fill
                 className="object-contain object-left"
               />
