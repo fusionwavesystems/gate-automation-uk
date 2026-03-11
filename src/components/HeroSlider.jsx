@@ -74,9 +74,34 @@ const HeroSlider = () => {
               Automation
             </span>
           </h1>
-          <p className="text-base md:text-xl text-slate-200 mb-8 md:mb-10 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-base md:text-xl text-slate-200 mb-6 md:mb-8 max-w-2xl mx-auto leading-relaxed">
             Secure, modern and intelligent gate systems for homes and businesses. Experience the future of entry control.
           </p>
+
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{
+              opacity: 1,
+              y: [0, -5, 0],
+            }}
+            transition={{
+              opacity: { duration: 0.8, delay: 1.2 },
+              y: {
+                repeat: Infinity,
+                duration: 4,
+                ease: "easeInOut"
+              }
+            }}
+            className="inline-flex items-center gap-3 bg-red-500/10 border border-red-500/30 backdrop-blur-md px-5 md:px-8 py-2 md:py-3 rounded-2xl mb-10 group hover:bg-red-500/20 transition-all duration-300 cursor-default shadow-[0_0_20px_rgba(239,68,68,0.15)]"
+          >
+            <div className="relative flex h-3 w-3">
+              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75"></span>
+              <span className="relative inline-flex rounded-full h-3 w-3 bg-red-500"></span>
+            </div>
+            <span className="text-red-400 font-bold text-sm md:text-lg tracking-wider uppercase drop-shadow-[0_0_8px_rgba(239,68,68,0.5)]">
+              We undertake all Emergency Repairs and Service
+            </span>
+          </motion.div>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link

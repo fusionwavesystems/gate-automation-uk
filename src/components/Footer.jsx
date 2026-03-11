@@ -11,9 +11,9 @@ const Footer = () => {
         <div className="space-y-6 flex flex-col items-center sm:items-start">
           <Link href="/" className="flex items-center group">
             <div className="relative h-20 w-56 md:h-28 md:w-72 transition-transform group-hover:scale-105 brightness-0 invert opacity-90">
-              <Image 
-                src="/images/logo.png" 
-                alt="Gate Automation UK" 
+              <Image
+                src="/images/logo.png"
+                alt="Gate Automation UK"
                 fill
                 className="object-contain object-left"
               />
@@ -42,7 +42,7 @@ const Footer = () => {
           <ul className="space-y-4 text-sm md:text-base">
             <li>12 Harington road,<br />Feltham, London TW14 9AB</li>
             <li>Phone: 07300960920</li>
-            <li>Email: gateautomationuk@outlook.com</li>
+            <li>Email: gnanasegarmicheal@gmail.com</li>
           </ul>
         </div>
 
