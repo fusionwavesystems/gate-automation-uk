@@ -14,7 +14,7 @@ const inter = Inter({
 });
 
 export const metadata = {
-  metadataBase: new URL('https://gateautomation.uk'),
+  metadataBase: new URL('https://www.gateautomationuk.co.uk'),
   title: {
     default: "Gate Automation UK | Professional Electric Gate Repairs & Installation",
     template: "%s | Gate Automation UK",
@@ -48,7 +48,7 @@ export const metadata = {
   openGraph: {
     title: "Gate Automation UK | Professional Electric Gate Repairs & Installation",
     description: "Expert automation gate fixing and repair services across the UK. Specialising in smart, secure, and modern gate systems for all property types.",
-    url: "https://gateautomation.uk",
+    url: "https://www.gateautomationuk.co.uk",
     siteName: "Gate Automation UK",
     images: [
       {
@@ -89,9 +89,9 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "HomeAndConstructionBusiness",
   "name": "Gate Automation UK",
-  "image": "https://gateautomation.uk/images/logo.png",
-  "@id": "https://gateautomation.uk",
-  "url": "https://gateautomation.uk",
+  "image": "https://www.gateautomationuk.co.uk/images/logo.png",
+  "@id": "https://www.gateautomationuk.co.uk",
+  "url": "https://www.gateautomationuk.co.uk",
   "telephone": "+447300960920",
   "address": {
     "@type": "PostalAddress",
