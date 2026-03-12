@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://gateautomation.uk/sitemap.xml
+Sitemap: https://www.gateautomationuk.co.uk/sitemap.xml
